@@ -16,12 +16,13 @@ def abort():
     f2.close()
     os.system("abort.bat")
 
-#
+#1
 minute = input("Hány perc múlva kapcsoljam ki a gépet?")
+#Leállítás futtatása
 stop(minute)
 
-#
+#2
 ab = input("Megszakítsam a leállást? i / n:  ")
 if ab == "i":
     print("Leállítás megszakítva!")
-    abort()
+    abort() #Megszakítás futtatása
